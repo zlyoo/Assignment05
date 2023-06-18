@@ -33,7 +33,7 @@ def mergeSort(arr):
 
 
 
-def plot(list):
+def my_plot(list):
     x = range(len(list))
     new_list = mergeSort(list)
     fig, axes = plt.subplots(1, 2)
